@@ -1,0 +1,24 @@
+WIREFRAMES DESKTOP
+
+index.html:   https://wireframe.cc/JCNiWl
+
+banda.html:   https://wireframe.cc/j20UfT
+
+discografia.html:   https://wireframe.cc/PPDcFI
+
+videos.html:  https://wireframe.cc/9nuPUl
+
+contacto.html:  https://wireframe.cc/AVr6kn
+
+
+WIREFRAMES MOBILE
+
+index.html:  https://wireframe.cc/2undAF
+
+banda.html:  https://wireframe.cc/Ems9ll
+
+discografia.html:  https://wireframe.cc/EIaXIU
+
+videos.html:  https://wireframe.cc/CjyB2U
+
+contacto.html:  https://wireframe.cc/NaC4gb
