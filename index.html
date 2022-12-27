@@ -15,26 +15,29 @@
 <body>
 
         <!-- ABRO LA NAVEGACION -->
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="./img/logooficial.png" alt="Logo The Beatles ">
                 </a>
-                <div>
-                    <ul class="navbar-nav">
-                        <li>
-                            <a href="pages/banda.html">Banda</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion" aria-controls="navegacion" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navegacion">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/banda.html">Banda</a>
 
                         </li>
-                        <li> 
-                            <a href="pages/discografia.html">Discografía</a>  
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="pages/discografia.html">Discografía</a>  
 
                         </li> 
-                        <li> 
-                            <a href="pages/videos.html">Videos</a>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="pages/videos.html">Videos</a>
                         </li> 
-                        <li> 
-                            <a href="pages/contacto.html">Contacto</a>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -46,8 +49,16 @@
         <img src="./img/headers/antology.png" alt="Collage de fotos de los Beatles" width="100%">
     </header>
     <!-- cierra el header -->
-
     <!-- Abrimos main  -->
+    <div>
+        <h1>Nuevo Lanzamiento</h1>
+        <h2>The Beatles Revolver edición especial</h2>
+        <p>La nueva mezcla estéreo, obtenida directamente de las cintas maestras originales de cuatro pistas, se presenta con una claridad asombrosa con la ayuda de la tecnología de desmezcla de vanguardia desarrollada por WingNut Films Productions Ltd de Peter. <br>
+        Con el arte del álbum original ganador del GRAMMY creado por Klaus Voormann, el CD y el vinilo Super Deluxe albergan un hermoso libro con el prólogo de Paul McCartney, una introducción de Giles Martin, un ensayo esclarecedor de Questlove y capítulos perspicaces de Kevin Howlett.</p>
+    </div>
+    <div>
+        <img src="/web/img/enventa/revolvernew.jpg" alt="Lanzamiento nueva edicion Revolver">
+    </div>
     <!-- Cerramos main -->
 
     <footer class="justify-content-center d-flex-gap-5">
