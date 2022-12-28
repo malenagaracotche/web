@@ -130,3 +130,17 @@ section p{
 
 }
 /* termina el grid pagina Discografia */
+
+/* Animaciones */
+.click{
+	animation: 0.7s click 1;
+}
+
+@keyframes click{
+	25%, 75%{
+		transform:scale(0.8);
+	}
+	50%{
+		transform:scale(1.1);
+	}
+}
